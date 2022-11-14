@@ -10,6 +10,7 @@ namespace Domain.Repositories
     public interface IProductRepository
     {
         Task<IEnumerable<Product>> GetAllAsync(IPagingInputDto pagingInputDto, CancellationToken cancellationToken = default);
+        Task<IEnumerable<Product>> GetByCategoryID(Guid categoryID, CancellationToken cancellationToken = default);
 
         Task<Product> GetByIdAsync(Guid ProductId, CancellationToken cancellationToken = default);
 

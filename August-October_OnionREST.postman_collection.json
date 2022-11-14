@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "79760dfe-fbb8-4267-a7d0-2e02f24c7489",
+		"name": "August-October_OnionREST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Category-All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/Category?PageNumber=1&PageSize=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Category"
+					],
+					"query": [
+						{
+							"key": "PageNumber",
+							"value": "1"
+						},
+						{
+							"key": "PageSize",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category-Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"test1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44391/api/Category",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category-byId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/Category/d0049636-0c0d-4920-b2c4-08dac6938ab2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Category",
+						"d0049636-0c0d-4920-b2c4-08dac6938ab2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL-Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/Products?PageNumber=1&PageSize=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Products"
+					],
+					"query": [
+						{
+							"key": "PageNumber",
+							"value": "1"
+						},
+						{
+							"key": "PageSize",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create-Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"test1\",\r\n  \"price\": 3,\r\n  \"quantity\": 3,\r\n  \"imgURL\": \"testurl\",\r\n  \"categoryId\": \"a8cf8a45-3253-4f8a-5893-08dac685ab9e\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44391/api/Products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/Products/9751bfa7-1557-4c31-f70a-08dac694ff97",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Products",
+						"9751bfa7-1557-4c31-f70a-08dac694ff97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update-Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"testUpdate1\",\r\n  \"price\": 3,\r\n  \"quantity\": 3,\r\n  \"imgURL\": \"testurl\",\r\n  \"categoryId\": \"a8cf8a45-3253-4f8a-5893-08dac685ab9e\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44391/api/Products/9751bfa7-1557-4c31-f70a-08dac694ff97",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Products",
+						"9751bfa7-1557-4c31-f70a-08dac694ff97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete-Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/Products/9751bfa7-1557-4c31-f70a-08dac694ff97",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Products",
+						"9751bfa7-1557-4c31-f70a-08dac694ff97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productsbycategoryID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/Category/a6694244-344a-4f48-5894-08dac685ab9e/Products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"Category",
+						"a6694244-344a-4f48-5894-08dac685ab9e",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

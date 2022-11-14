@@ -25,7 +25,14 @@ namespace Application.Services
 
             return ProductsDto;
         }
+        public async Task<IEnumerable<ProductDTO>> GetByCategoryID(Guid categoryID, CancellationToken cancellationToken = default)
+        {
+            var Products = await _repositoryManager.ProductRepository.GetByCategoryID(categoryID, cancellationToken);
 
+            var ProductsDto = Mapping.MapperObject.Mapper.Map<IEnumerable<ProductDTO>>(Products);
+
+            return ProductsDto;
+        }
         public async Task<ProductDTO> GetByIdAsync(Guid ProductId, CancellationToken cancellationToken = default)
         {
             var Product = await _repositoryManager.ProductRepository.GetByIdAsync(ProductId, cancellationToken);

@@ -42,7 +42,7 @@ namespace WebApi.Controllers
         [HttpGet("{categoryID}/Products")]
         public async Task<IActionResult> GetProductsByCategoryID(Guid categoryID, CancellationToken cancellationToken)
         {
-            var ProductDto = await _serviceManager.ProductService.GetByIdAsync(categoryID, cancellationToken);
+            var ProductDto = await _serviceManager.ProductService.GetByCategoryID(categoryID, cancellationToken);
 
             return Ok(ProductDto);
         }

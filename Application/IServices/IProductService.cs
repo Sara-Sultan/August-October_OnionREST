@@ -10,6 +10,7 @@ namespace Application.IServices
     public interface IProductService
     {
         Task<IEnumerable<ProductDTO>> GetAllAsync(PagingInputDto pagingInputDto, CancellationToken cancellationToken = default);
+        Task<IEnumerable<ProductDTO>> GetByCategoryID(Guid categoryID, CancellationToken cancellationToken = default);
 
         Task<ProductDTO> GetByIdAsync(Guid productId, CancellationToken cancellationToken = default);
 

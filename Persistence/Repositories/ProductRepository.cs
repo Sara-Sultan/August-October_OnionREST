@@ -27,6 +27,12 @@ namespace Persistence.Repositories
             var page = query.Skip((pagingInputDto.PageNumber * pagingInputDto.PageSize) - pagingInputDto.PageSize).Take(pagingInputDto.PageSize);
             return await page.ToListAsync(cancellationToken);
         }
+        public async Task<IEnumerable<Product>> GetByCategoryID(Guid categoryID, CancellationToken cancellationToken = default)
+        {
+            var query = _dbContext.Products.Include(x => x.Category).AsQueryable();
+            var page = query.Where(x=>x.CategoryId==categoryID);
+            return await page.ToListAsync(cancellationToken);
+        }
 
         public async Task<Product> GetByIdAsync(Guid ProductId, CancellationToken cancellationToken = default) =>
             await _dbContext.Products
