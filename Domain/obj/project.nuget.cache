@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eivn62alqNqu6AXf7UAI0moCeTxHdjLGK55i7DQG08SzgqUkscT6V7R2tYFnodxwq8qhPr94wrhxeDsreBoVjg==",
+  "success": true,
+  "projectFilePath": "E:\\ITWorx\\github\\August-October_OnionREST\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\engsa\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

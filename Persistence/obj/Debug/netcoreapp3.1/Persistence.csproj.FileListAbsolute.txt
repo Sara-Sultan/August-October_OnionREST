@@ -1,0 +1,16 @@
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Domain.dll
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.AssemblyReference.cache
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.json
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.dev.json
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache

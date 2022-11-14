@@ -1,0 +1,9 @@
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\bin\Debug\netstandard2.1\Domain.dll
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\bin\Debug\netstandard2.1\Domain.pdb
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\obj\Debug\netstandard2.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\obj\Debug\netstandard2.1\Domain.dll
+E:\ITWorx\August-October_OnionREST\August-October_OnionREST\Domain\obj\Debug\netstandard2.1\Domain.pdb

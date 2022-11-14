@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f6648b01-e822-41ef-bddd-6eee40cd36d5": {
+      "ProjectGuid": "f6648b01-e822-41ef-bddd-6eee40cd36d5",
+      "DisplayName": "WebApi",
+      "ColorIndex": 0
+    },
+    "8bb63425-305b-4c64-a453-7bb079a1bbc3": {
+      "ProjectGuid": "8bb63425-305b-4c64-a453-7bb079a1bbc3",
+      "DisplayName": "Domain",
+      "ColorIndex": 1
+    },
+    "46f88350-3069-419f-a10e-04c469c50268": {
+      "ProjectGuid": "46f88350-3069-419f-a10e-04c469c50268",
+      "DisplayName": "Application",
+      "ColorIndex": 2
+    },
+    "998314c7-fba4-4cde-9ddb-594712795d52": {
+      "ProjectGuid": "998314c7-fba4-4cde-9ddb-594712795d52",
+      "DisplayName": "Persistence",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
